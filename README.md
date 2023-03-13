@@ -13,7 +13,7 @@
           <img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white">
           <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
           <br/><img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white">
-          <img src="https://img.shields.io/badge/Styled Component-FF3399?style=for-the-badge&logo=html5&logoColor=white">
+          <img src="https://img.shields.io/badge/Styled Component-FF3399?style=flat-square&logo">
           <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white">
           <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=Netlify&logoColor=white">
           <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white">
