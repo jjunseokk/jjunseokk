@@ -24,6 +24,7 @@
           <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white">
         <img src="https://img.shields.io/badge/mysql-4479A1?style=flat-the-badge&logo=mysql&logoColor=white">
         <img src="https://img.shields.io/badge/aws-232F3E?style=flat-the-badge&logo=aws&logoColor=white">
+        <img src="https://img.shields.io/badge/next-FFFFFF?style=flat-the-badge&logo=next.js&logoColor=white">
           </div>
     </div>
     <div style="text-align: left;">
