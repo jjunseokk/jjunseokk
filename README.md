@@ -1,83 +1,63 @@
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:7c3aed&height=180&text=Junseok%20Park&animation=fadeIn&fontColor=ffffff&fontSize=48"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:7c3aed&height=160&text=Junseok%20Park&fontColor=ffffff&fontSize=44"
     alt="Junseok Park"
   />
 </div>
 
-## 안녕하세요, 프론트엔드 개발자 박준석입니다.
+## 안녕하세요. 프론트엔드 개발자 박준석입니다.
 
-React·Next.js·TypeScript로 웹서비스를, React Native로 모바일 앱을 개발합니다.
+React와 Next.js로 웹을 만들고, React Native로 앱을 개발했습니다.
+웹과 앱을 모두 경험하면서 웹 프론트엔드 개발에 가장 큰 흥미를 느꼈습니다.
 
-작품 검색과 필터, 대시보드, 예약 화면 등 다양한 서비스 기능을 구현했습니다.
-Nest.js와 MySQL로 API·데이터베이스를 구축하고 배포까지 담당하며,
-화면과 데이터가 연결되는 서비스 구조를 경험했습니다.
+주로 서비스 화면을 개발하지만, 일부 프로젝트에서는 기획부터 API, 데이터베이스, 배포까지 맡았습니다.
+필요한 기술을 찾아 적용하며 서비스를 완성해왔고, 앞으로는 동료들과 코드를 리뷰하고 의견을 나누는 경험을 쌓고 싶습니다.
 
-사용자가 겪는 불편을 구체적인 기능으로 개선하는 데 관심이 있습니다.
-코드 리뷰와 협업을 통해 구현의 이유를 나누고, 유지보수하기 좋은 코드를 작성하고자 합니다.
+## 이런 작업을 했습니다
 
-## Projects
+### VIDO
+미디어아트 작품을 찾고 등록하는 서비스의 프론트엔드를 담당했습니다.
 
-### VIDO · 미디어아트 플랫폼
-- 제목을 몰라도 작품을 찾을 수 있도록 주제·분위기·해상도·소리 유무 필터 구현
-- URL과 검색 조건을 연동해 새로고침 후에도 필터 상태 유지
-- Chart.js 기반 작가 대시보드와 이미지 크롭·미리보기 개발
+제목으로만 검색하면 원하는 분위기의 작품을 찾기 어렵다는 문제가 있었습니다.
+주제, 분위기, 해상도, 소리 유무를 선택하는 필터를 적용해 제목을 몰라도 작품을 찾아볼 수 있도록 했습니다.
+검색 조건은 URL과 연결해 새로고침 후에도 유지되게 했습니다.
 
-[서비스](https://vido.gallery/) · [GitHub](https://github.com/jjunseokk/VIDO)
+작가가 작품 지표와 수익을 확인하는 대시보드, 이미지 크롭과 미리보기 기능도 작업했습니다.
 
-### NUWORKS · IoT·AI 웹서비스
-- Next.js 기반 서비스 화면과 프로젝트 생성·조회·수정 기능 개발
-- AI 챗봇·워크스페이스의 구조도 확인·편집 기능 구현
-- Nest.js·MySQL·TypeORM으로 API·데이터베이스 구축
-- 트래픽 변화 대응과 운영 부담 완화를 위해 EC2에서 Docker 기반 AWS App Runner로 이전
+[서비스](https://vido.gallery/) · [코드](https://github.com/jjunseokk/VIDO)
+
+### NUWORKS
+IoT·AI 관련 정보와 프로젝트 구조도를 다루는 웹서비스입니다.
+기획에 참여한 뒤 Next.js로 화면을 만들고, Nest.js와 MySQL로 API와 데이터베이스를 구축했습니다.
+
+프로젝트 관리 화면과 AI 챗봇·워크스페이스를 개발했고, 배포도 맡았습니다.
+EC2 운영 중 일시적인 서버 중단을 겪은 뒤, 트래픽 변화에 대응하고 운영 부담을 줄이기 위해 Docker 기반 App Runner로 이전했습니다.
 
 [서비스](https://nuworks.io/)
 
-### 사이 · 공동체 서비스
-- Codex를 활용해 UI와 공통 스타일 정리
-- pnpm workspace 기반으로 웹 앱과 공통 디자인 패키지 분리
-- 변경 범위를 정하고 미리보기 오류를 제보하며 AI와 함께 개선 작업 진행
-- 코드 변경에 따른 화면 비교·기능 검사·타입 검사·빌드 기록 확보
+### 사이
+청년부 공동체 서비스를 만들며 Codex를 활용해 화면과 프로젝트 구조를 정리했습니다.
 
-## Tech Stack
+pnpm workspace로 웹 앱과 공통 디자인 패키지를 나누고, 디자인 토큰과 CSS를 분리했습니다.
+저는 디자인 기준과 변경 범위를 정하고 미리보기에서 발견한 오류를 전달했으며, Codex가 코드 수정과 검사를 수행했습니다.
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+작업 과정에는 화면 비교, 기능 검사, 타입 검사와 빌드 기록을 남겼습니다.
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+## 사용해본 기술
 
-### Styling
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
-![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white)
+프로젝트에서 직접 사용한 기술을 정리했습니다.
 
-### State & Data
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+| 분야 | 기술 |
+| --- | --- |
+| 웹 | JavaScript, TypeScript, React, Next.js |
+| 앱 | React Native |
+| 스타일 | CSS, SCSS, styled-components |
+| 상태·데이터 | React Query, Zustand, Redux |
+| 백엔드 | Node.js, Nest.js, MySQL, TypeORM |
+| 개발 환경 | Vite, pnpm workspace |
+| 배포 | AWS EC2, AWS App Runner, Docker, Nginx, PM2 |
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=flat-square)
+## 연락처
 
-### Development & Deployment
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm_Workspace-F69220?style=flat-square&logo=pnpm&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square)
-![AWS App Runner](https://img.shields.io/badge/AWS_App_Runner-232F3E?style=flat-square)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
-
-## Contact
-
-- **Email:** [p.junseok53@gmail.com](mailto:p.junseok53@gmail.com)
-- **Blog:** [velog.io/@jjunseokk](https://velog.io/@jjunseokk/posts)
-- **GitHub:** [github.com/jjunseokk](https://github.com/jjunseokk)
+- 이메일: [p.junseok53@gmail.com](mailto:p.junseok53@gmail.com)
+- 블로그: [Velog](https://velog.io/@jjunseokk/posts)
